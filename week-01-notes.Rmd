@@ -1,0 +1,167 @@
+---
+title: "Week-01-Notes"
+author: "Andrew Nalundasan"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float: true
+    number_sections: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Overview
+
+# Introduction
+
++ Key steps:
+
+    1. Scoping the project
+    2. Locate an industry partner
+    3. Formalize a question
+    4. Finding data sources
+    5. Determining the method of analysis
+    6. Implementing the analytical procedure
+    7. Communicating results to the client
+    
++ Week 1: 
+
+    + Formation of teams
+    + Exploring strategies for PM and System Development
+    + Brainstorming and deciding on strategy
+    + Rough timeline of project progress
+    
++ Locating Industry partner
+
+    + Industry Partner Client: Taragon / Investco
+    
++ Formalizing a Question
+
+    + Client will provide project goal and we will formulate a problem statement
+    
++ Finding data sources
+
+    + Client will provide or we will be instructed on which ones to use
+    + All data must be cleaned and preprocessed
+    
++ Determine method of analysis
+
+    + May be told which method to use or be offered freedom to choose how
+    
++ Implement Analytical Procedure
+
+    + This may or may not be guided to the team
+    + Development procedures must have some form of stages and documentation
+    
++ Communicating results to the clinet
+
+    + This will be guided or free form
+    
++ Class expectations
+
+    + Won't learn anything new, but will learn new things
+    + Simulation of a real-world project
+    + Lectures will be review to help spur discussion
+
+# Project Management Strategies & Tools
+
++ Most of project success is based on planning
++ **Project Management**: The application of knowledge, skills, tools, and techniques to meet a project's requirements
++ Who is our team's PM?
++ PM Responsibilities
+
+    + Ensure work is progressing efficiently
+    + Ensure communication is happening regularl
+    + Provide feedback on team's conduct
+    + Delegate other tasks effectively
+    
++ PM Processes: 
+  
+    1. **Initiating** <- set project objective, develop Problem Statement, create Project Charter, Kickoff Meeting
+    2. **Planning** <- Identify deliverables, clarify scope, develop progress tracker (Gantt chart)
+    3. **Executing** <- develop product
+    4. **Monitoring and Controlling** <- Tracking progress on progress tracker, possible revise goals
+    5. **Closing** <- sign-off from Admins, Documentation
+
++ PM Strategies: 
+
+    1. Define success
+        + Understand what success looks like
+        + Define "complete"
+    2. Understand challenges and constraints that could impact success
+        + **Scope** <- what is and what is not included in the project
+        + **Time** <- What is the expected schedule that needs to be adhered to
+        + **Cost** <- What is the budge that the project must stay within
+        + **Quality** <- What sort of expectations do stakeholders have that will be measured?
+        + **Stakeholder Satisfaction** <- What is the objective that the project needs to meet for the stakeholders to be satisfied
+        + **Resources** <- what resources are necessary to complete the project
+    3. Identify and understand key areas of knowledge around the project
+        + **Scope** <- processes that are needed to ensure the work gets completed, but not any extra unnecessary work
+        + **Cost** <- processes involved in ensuring project stays in budget
+        + **Time** <- processes required for time management
+        + **Risk** <- processes to identify, plan for, and analyze risks
+        + **Human Resources** <- process that organize, manage, and lead the project team
+        + **Stakeholder Management** <- processes to identify, analyze, and manage stakeholders and their expectations during the project process
+        + **Quality** <- processes to ensure the project meets minimum quality requirements 
+        + **Communications** <- procsses required to ensure timely and efficient communication around a project
+        + **Procurement** <- processes required to acquire any products, services, and results from outside of the project team and organization
+        + **Integration** <- processes to integrate the other 9 key areas
+    4. Be flexible
+    
++ Project Management Software Recommendations
+
+    + Basecamp
+    + Monday.com
+    + Trello
+    + JIRA
+    + Others
+    + Links in CANVAS
+
+# Systems Development
+
++ Systems Development: process of developing the systems necessary to complete the project
+
+    + PM is focused on the big picture, including stakeholder management, time management, cost, est
+    + System Development is concered with the actual system being developed and what methodology will be implemented
+    
++ System Development Life Cycle
+
+    1. **Planning** <- Assess business need (ROI, Competitive Advantage, Risk Management, Feasibility Study)
+    2. **Analysis** <- Requirements Analysis (functional and non-functional), Process Diagrams, Requirement Definition Document
+    3. **Design** <- Tech Requirements, Architectural Design, Use Case Diagram
+    4. **Development** <- Version control software, Code review practices
+    5. **Testing** <- Types of testing (Unit, System, Stress, etc.)
+    6. **Implementaiton** <- Types of implementation (parallel (same time), phased (Boeing), direct (big bang))
+    7. **Maintenance** <- Change control process, legacy system upgrade
+    
++ System Development Methodologies
+
+    + Waterfall
+        + Process where everything is done sequentially
+        + Leave little room for flexibility
+        + Ideal when requirements are known from beginning
+    + Agile <- iterative philosophy intended to accomodate change and flexiblity
+        + SCRUM
+        + Rapid Application Development
+        + KANBAN
+        
++ Which Agile?
+
+    + SCRUM: Working on different part simultaneously is possible
+    + Rapid Application Development: Working together on many prototypes with regular communication with client
+    + Kanban: Basically SCRUM, with a very specific visual progress format
+    
+# Garage Methodology
+
++ Some IBM bullshit flavored Agile
++ All about exploration and experimentation
++ IBM Bullshit
++ MVP <- Minimum Viable Product
+
+    + Delivering whatever product is needed to make the Customer happy
+
+
