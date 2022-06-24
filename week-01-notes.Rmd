@@ -37,7 +37,7 @@ knitr::opts_chunk$set(echo = TRUE)
     
 + Locating Industry partner
 
-    + Industry Partner Client: Taragon / Investco
+    + Industry Partner Client: Tarragon / Investco
     
 + Formalizing a Question
 
@@ -57,7 +57,7 @@ knitr::opts_chunk$set(echo = TRUE)
     + This may or may not be guided to the team
     + Development procedures must have some form of stages and documentation
     
-+ Communicating results to the clinet
++ Communicating results to the client
 
     + This will be guided or free form
     
@@ -135,7 +135,7 @@ knitr::opts_chunk$set(echo = TRUE)
     3. **Design** <- Tech Requirements, Architectural Design, Use Case Diagram
     4. **Development** <- Version control software, Code review practices
     5. **Testing** <- Types of testing (Unit, System, Stress, etc.)
-    6. **Implementaiton** <- Types of implementation (parallel (same time), phased (Boeing), direct (big bang))
+    6. **Implementaiton** <- Types of implementation: parallel (same time), phased (Boeing), direct (big bang))
     7. **Maintenance** <- Change control process, legacy system upgrade
     
 + System Development Methodologies
